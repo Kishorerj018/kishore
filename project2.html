@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kishore Kumar R | Front-End Developer</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f5f2f2;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      nav ul li {
+        margin: 0 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px 0;
+      }
+
+      .hero {
+        background: #007bff;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      section h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      section p {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .skills .skill {
+        margin: 20px auto;
+        width: 80%;
+      }
+
+      .skills .skill label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .bar {
+        height: 10px;
+        background-color: #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .fill {
+        height: 100%;
+        background-color: #007bff;
+        border-radius: 5px;
+      }
+
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .project-card {
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .project-card h3 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .contact form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .contact form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .contact form input,
+      .contact form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .contact form button {
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+      }
+
+      @media (max-width: 600px) {
+        nav ul {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#hero" aria-label="Home">Home</a></li>
+          <li><a href="#about" aria-label="About">About</a></li>
+          <li><a href="#skills" aria-label="Skills">Skills</a></li>
+          <li><a href="#projects" aria-label="Projects">Projects</a></li>
+          <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <h1>Hello, I'm Kishore Kumar R</h1>
+        <p>Front-End Web Developer</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>R.KISHORE KUMAR</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skill">
+          <label>HTML</label>
+        </div>
+
+        <div class="skill">
+          <label>CSS</label>
+        </div>
+
+        <div class="skill">
+          <label>JavaScript</label>
+        </div>
+
+        <div class="skill">
+          <label>Web Page Design</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>
+              Parkinson's Disease Detection Using Python and Voice Signal
+              Analysis
+            </h3>
+            <p>
+              Developed a machine learning model to detect Parkinson's disease
+              by analyzing voice signals. Extracted acoustic features from
+              speech recordings and applied algorithms like Support Vector
+              Machines (SVM), Random Forests, and XGBoost, achieving accuracies
+              up to 98%. This approach offers a non-invasive, cost-effective
+              method for early diagnosis and monitoring of Parkinson's disease.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form onsubmit="handleSubmit(event)">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Kishore Kumar R</p>
+    </footer>
+
+    <script>
+      function handleSubmit(event) {
+        event.preventDefault();
+        alert("Thanks for your message!");
+      }
+    </script>
+  </body>
+</html>
