@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>Password 1:</label>
+    <input type="password" id="password" />
+    <br /><br />
+
+    <label>Confirm Password 2:</label>
+    <input type="password" id="confirmpassword" />
+    <br /><br />
+
+    <button onclick="checkpassword()">Submit</button>
+    <p id="message"></p>
+
+    <script>
+      function checkpassword() {
+        let pass1 = document.getElementById("password").value;
+        let pass2 = document.getElementById("confirmpassword").value;
+        let message = document.getElementById("message");
+
+        if (pass1 === pass2) {
+          message.textContent = "Password matched";
+          message.style.color = "green";
+        } else {
+          message.textContent = "Password unmatched";
+          message.style.color = "red";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+javascript is an scripting language 
+we will instruct a browser to run the code.
+
+which is used to interact with the users dynamically 
+
+it is an client side scripting language 
+it will be interactive (notify) with the users on the basis 
+of:
+alert box (notify) 
+prompt box (get input from users)
+confirmation box (just to confirm yes or no)
+
+javascript is an dynamically typed language
+
+name='javascript' 
+character 
+a=8.5 
+age=58 
+type=true 
+
+it is an open source langaue 
+it is an cross platform 
+it is an case-sentive language 
+getElementByID--
+getelementbyid --X
+
+javascript is an dynamically interactive language  
+password: lenght>9,A-Z,a-z,$%^,0-9
+
+
+basics/fundamentals of javascript:
+variables:
+other name of variables is identifiers
+variables:
+----------
+A variables means named memory reference location 
+or locator 
+(or)
+it will act like a container to store n no of 
+datatype values.
+
+
+Datatypes:
+----------
+values can be stored inside a variable:
+types of datatypes are:
+number:
+------
+integer:wholeno 
+decimal:floatno 
+
+character: (a-z)(A-Z)
+----------
+string 
+
+Boolean:(0,1)
+-------
+True or False 
+
+Null,
+
+undefined,
+
+Object 
+
+--------------------------------------------------
+Literals:
+operators:
+control statements:
+conditional statements:
+
+course=javascript lowercase 
+JAVASCRIPT uppercase 
+Javascript Capitalize
+JavaScript camelcase
+
+string 
+
+number 
+45.2 
+2225 
+boolean True or False 
+
+variables:
+var personname='manoj'
+var cgpa:453.9
+var age:96
+
+var is keywords
+keywords means it is reserved words
+it is an on ready stste function
+which is persived from inbuild function
+
+javascript is an intrpreted language
+
+literals:
+means it will return you the exact datatype values
+stored in an identifiers/variable
+typesof
+var name='python'
+types of keyword 
+
+operators:
+operators means which is going to perform dome 
+mathematical operators
+1,arithmetic operators 
++,-,/,*=
+2,assignment operators
++=,-=,*=,==.%=
+3,string operators
++ concat
+4,increment and decrwment operators
+++--
+5,camparison/relational operators
+<,>,==,!=.<=,>=
+
+
+
+<!-- document.getElementById 
+document.getElementByclassName  
+document.getElementTagName  
+document.getElementqueryselector
+
+dom 
+<body>
+embeded
+
+</body>
+<Script>
+    id  
+    class 
+    tag 
+    query 
+</Script> 
+email validation 
+
+@. -->
+
+var a=78; { var a=63; console.log(a) } dynamically typed language dynamic
+website var b=96 { var a=45; console.log(b) } let name='jayashree' { let
+name='python' console.log(name) } const : redeclare and reassign cant be done
+area of pi=3.14 { area of pi=3.15 } const name='python'
