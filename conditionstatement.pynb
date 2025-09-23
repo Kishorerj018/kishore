@@ -1,0 +1,1167 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ad05fa49-aa08-42c7-8d15-8cd4cda210bd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#if condition statement\n",
+    "if(condition):\n",
+    "    print(\"true\")\n",
+    "else:\n",
+    "    print(\"false\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "c9dd6939-5b49-4d6e-aa53-52f00a072636",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "even\n"
+     ]
+    }
+   ],
+   "source": [
+    "#find odd or even number\n",
+    "num=18\n",
+    "if num%2==0:\n",
+    "    print(\"even\")\n",
+    "else:\n",
+    "    print(\"odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "46afea2c-f09b-437f-83f3-ec8e8aeb9d35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "negative number\n"
+     ]
+    }
+   ],
+   "source": [
+    "#find positive are negative\n",
+    "\n",
+    "num=-3\n",
+    "if num>0:\n",
+    "    print(\"positive number\")\n",
+    "else:\n",
+    "    print(\"negative number\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "6fa10cfb-624d-416d-ab57-a816f81b8444",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the word: 99\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "access denied\n"
+     ]
+    }
+   ],
+   "source": [
+    "#username---sla---login----access denied\n",
+    "\n",
+    "num=str(input(\"enter the word:\"))\n",
+    "\n",
+    "if num==\"sla\":\n",
+    "    print(\"login\")\n",
+    "else:\n",
+    "    print(\"access denied\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "94d5efb6-e980-47bf-9968-b1fce9591000",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the word sla\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "login\n"
+     ]
+    }
+   ],
+   "source": [
+    "#username---sla--SLA--Sla---login---access denied\n",
+    "name=str(input(\"enter the word\"))\n",
+    "\n",
+    "if name.lower()==\"sla\":\n",
+    "    print(\"login\")\n",
+    "else:\n",
+    "    print(\"access denied\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef434af1-ece6-4db8-968a-8b305ebb932f",
+   "metadata": {},
+   "source": [
+    "#task question\n",
+    "1.prop of sets?\n",
+    "--it is unordered\n",
+    "--it allow immutable datatypes\n",
+    "--it not allow duplicate value\n",
+    "--it is mutable\n",
+    "\n",
+    "2.diff b/w list & set?\n",
+    "--list is ordered               --set is unordered\n",
+    "--it allow duplicate value      --it not allow duplicate value\n",
+    "--it allow all datatypes        --it allows immutable datatypes\n",
+    "--it is immutable               --it is mutable\n",
+    "\n",
+    "3.diff b/w mutable & immutable ?\n",
+    "--mutable can change index after creation       --immutable cannot change index after                                                    creation\n",
+    "   --list,set                                          --tuple\n",
+    "\n",
+    "4.explain sum method in set?\n",
+    "--add the new element\n",
+    "  num={1,2,3,4,6,7,8,\"kishore\"}\n",
+    "  num\n",
+    "  num.add(5)\n",
+    "  num\n",
+    "\n",
+    "5.explain sum method in list?\n",
+    "--add index in particular place\n",
+    "  num=[1,3,5,8,9,0,\"kishore\"]\n",
+    "  num\n",
+    "  num.index(4,\"king\")\n",
+    "  num\n",
+    "\n",
+    "6.explain sum method in string?\n",
+    "\n",
+    "7.conditional statement?\n",
+    "--condition statement is able work based on certain conoditions.\n",
+    "types are:\n",
+    "   --if else\n",
+    "   --else if\n",
+    "   --nested if\n",
+    "   --ladder if\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "5e538d8d-3596-4898-af4c-515199a5983a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number is odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "#8 . number is odd or even\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "\n",
+    "if num%2==0:\n",
+    "    print(\"number is even\")\n",
+    "else:\n",
+    "    print(\"number is odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "c5d28a93-8d34-43bd-a3dd-eae8b14fe7d5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number -3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "negative\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 9. num is + or -\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "else:\n",
+    "    print(\"negative\")\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "382ab4db-77c9-4456-a450-60c8bdfb7ed8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your salery 26000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "good salery\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 10  . salery>25000 \n",
+    "\n",
+    "num=int(input(\"enter your salery\"))\n",
+    "if num>25000:\n",
+    "    print(\"good salery\")\n",
+    "else:\n",
+    "    print(\"bad salery\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "ef01e701-ea64-4148-a90f-75837b45eb47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter temprature 111\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "boiling\n"
+     ]
+    }
+   ],
+   "source": [
+    "#11. temp 100 degree\n",
+    "\n",
+    "num=int(input(\"enter temprature\"))\n",
+    "if num>100:\n",
+    "    print(\"boiling\")\n",
+    "else:\n",
+    "    print(\"not boiling\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "86ceb81a-fba5-4706-bcb4-4a2cbec25626",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your name kishor\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "valid name\n"
+     ]
+    }
+   ],
+   "source": [
+    "#12 .name length under 5 char\n",
+    "\n",
+    "name=input(\"enter your name\")\n",
+    "if len (name)>5:\n",
+    "    print(\"valid name\")\n",
+    "else:\n",
+    "    print(\"notvalid\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "2e179e39-c81a-4e45-84ea-12a422f0acd7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 25\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "it is divide\n"
+     ]
+    }
+   ],
+   "source": [
+    "#13  .given num % by 5\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "if num %5==0:\n",
+    "    print(\"it is divide\")\n",
+    "else:\n",
+    "    print(\"it is not divide\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "52c63a60-0a30-49ff-837c-5a31de04edf4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the password kish#\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "password is valid \n"
+     ]
+    }
+   ],
+   "source": [
+    "#14 . pass valid or not #\n",
+    "\n",
+    "num=input(\"enter the password\")\n",
+    "if \"#\" in num:\n",
+    "    print(\"password is valid \")\n",
+    "else:\n",
+    "    print(\"password is not valid\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "c2aba7cf-d2b7-4aee-9995-bf81450c904f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 15\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "yes\n"
+     ]
+    }
+   ],
+   "source": [
+    "#condition divisable by 5 and 3\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "if (num %5==0) and (num %3==0):\n",
+    "    print(\"yes\")\n",
+    "else:\n",
+    "    print(\"no\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "c26e8587-a470-4239-b8eb-96f85420b65f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "yes\n"
+     ]
+    }
+   ],
+   "source": [
+    "#condition divisable by 5 or 3\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "if (num %5==0) or (num %3==0):\n",
+    "    print(\"yes\")\n",
+    "else:\n",
+    "    print(\"no\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f56e121f-0079-4f49-904e-01a2c32dd71f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the name sla\n",
+      "enter the pass 1234\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "login\n"
+     ]
+    }
+   ],
+   "source": [
+    "#name==sla\n",
+    "#pass==1234\n",
+    "name=str(input(\"enter the name\"))\n",
+    "password=int(input(\"enter the pass\"))\n",
+    "\n",
+    "if (name==\"sla\") and (password==1234):\n",
+    "    print(\"login\")\n",
+    "else:\n",
+    "    print(\"access denied\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "07f08015-5587-431b-8ec9-f29a26898dd0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your country name king\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "capital is not found\n"
+     ]
+    }
+   ],
+   "source": [
+    "country=str(input(\"enter your country name\"))\n",
+    "\n",
+    "if(country==\"india\"):\n",
+    "    print(\"capital is delhi\")\n",
+    "elif (country==\"america\"):\n",
+    "    print(\"capital is washington\")\n",
+    "elif (country==\"srilanka\"):\n",
+    "    print(\"capiatal is colombia\")\n",
+    "else:\n",
+    "    print(\"capital is not found\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8f860530-ab3e-4d6e-a2fb-7c9d983dbfd5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your country india\n",
+      "enter your price 1000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1100.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "country=str(input(\"enter your country\"))\n",
+    "price=int(input(\"enter your price\"))\n",
+    "\n",
+    "if (country==\"india\"):\n",
+    "    cost=price*1.10\n",
+    "    print(cost)\n",
+    "elif (country==\"america\"):\n",
+    "    cost=price*1.25\n",
+    "    print(cost)\n",
+    "elif(country==\"dubai\"):\n",
+    "    print(price)\n",
+    "else:\n",
+    "    cost=price*0.07\n",
+    "    print(price)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "3f123350-a546-4e52-9809-eb07e8b65cfc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the price 33\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1100.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "km=int(input(\"enter the price\"))\n",
+    "\n",
+    "if km>=90 :\n",
+    "    cost*20\n",
+    "    print(cost)\n",
+    "elif km >=50 and km <=89:\n",
+    "    cost*15\n",
+    "    print(cost)\n",
+    "elif km >=30 and km <=49:\n",
+    "    cost*12\n",
+    "    print(cost)\n",
+    "else:\n",
+    "    cost*10\n",
+    "    print(cost)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3b3f9c97-0cd8-4b5e-b347-8ebb43d1c908",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your course python\n",
+      "enter your fees 15000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7500.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 1 tast qustions\n",
+    "course=str(input(\"enter your course\"))\n",
+    "fees=int(input(\"enter your fees\"))\n",
+    "\n",
+    "if(course==\"dataanalytic\"):\n",
+    "    cost=fees*0.25\n",
+    "    print(cost)\n",
+    "elif(course==\"python\"):\n",
+    "    cost=fees*0.50\n",
+    "    print(cost)\n",
+    "elif(course==\"java\"):\n",
+    "    cost=fees*0.75\n",
+    "    print(cost)\n",
+    "else:\n",
+    "    cost=0.93\n",
+    "    print(fees)\n",
+    "    \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "325c3694-07ab-4ded-81bf-035284619fe8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your mounth apr\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "it has 30 days\n"
+     ]
+    }
+   ],
+   "source": [
+    "month=str(input(\"enter your mounth\"))\n",
+    "\n",
+    "if month in (\"jan\",\"mar\",\"may\",\"july\",\"aug\",\"oct\",\"dec\"):\n",
+    "    print(\"it has 31 days\")\n",
+    "elif(month==\"feb\"):\n",
+    "    print(\"it has 28 or 29 days\")\n",
+    "elif month in (\"apr\",\"jun\",\"sep\",\"nov\"):\n",
+    "    print(\"it has 30 days\")\n",
+    "else:\n",
+    "    print(\"month not found\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "cbd74107-9662-47ed-befd-899e158b6006",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your username sla\n",
+      "enter your password 1234\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "login\n"
+     ]
+    }
+   ],
+   "source": [
+    "username=str(input(\"enter your username\"))\n",
+    "password=int(input(\"enter your password\"))\n",
+    "\n",
+    "if (username==\"softlogic\" or \"sla\") and (password==1234):\n",
+    "    print(\"login\")\n",
+    "else:\n",
+    "    print(\"access denied\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "4f039170-034b-4a81-b913-118162403df6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the month apr\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2 quater of year\n"
+     ]
+    }
+   ],
+   "source": [
+    "month=str(input(\"enter the month\"))\n",
+    "\n",
+    "if month in(\"jan\",\"feb\",\"mar\"):\n",
+    "    print(\"1 quater of year\")\n",
+    "elif month in(\"apr\",\"may\",\"jun\"):\n",
+    "    print(\"2 quater of year\")\n",
+    "elif month  in(\"jul\",\"aug\",\"sep\"):\n",
+    "    print(\"3 quater of year\")\n",
+    "else:\n",
+    "    print(\"other quater of year\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "3ec3db2c-1ce4-40f0-87b9-d217fd273372",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter ur mark 80\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " grade B\n"
+     ]
+    }
+   ],
+   "source": [
+    "mark = int( input('enter your mark') )\n",
+    "\n",
+    "if mark>=90 and mark<=100:\n",
+    "    print(' grade A')\n",
+    "elif mark>=70 and mark<=89:\n",
+    "    print(' grade B')\n",
+    "elif mark>=60 and mark<=69:\n",
+    "    print(' grade C')\n",
+    "elif mark>=50 and mark<=59:\n",
+    "    print(' grade d')\n",
+    "elif mark>=45 and mark<=49:\n",
+    "    print(' grade e')\n",
+    "else:\n",
+    "    print('no grade')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "9ffef1e7-2027-477f-b134-094ddf0bace1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the unit 133\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "not found\n"
+     ]
+    }
+   ],
+   "source": [
+    "units=int(input(\"enter the unit\"))\n",
+    "\n",
+    "if units >=400:\n",
+    "    print(\"55 rupees\")\n",
+    "elif units >=300 and units <=399:\n",
+    "    print(\"40 rupees\")\n",
+    "elif units >=150 and units <=299:\n",
+    "    print(\"30 rupees\")\n",
+    "elif units <=100:\n",
+    "    print(\"free\")\n",
+    "else:\n",
+    "    print(\"not found\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "2037ab67-62f1-4049-9df5-06ee6fca7292",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 3\n",
+      "enter the number 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "add\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"enter the number\"))\n",
+    "num2=int(input(\"enter the number\"))\n",
+    "var=input(\"+\",\"-\",\"/\",\"*\")\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "4c9b1207-24dd-446c-9eb1-cc9b9ca25f2d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 30\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "even\n",
+      "it is divided by 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "# odd or even\n",
+    "#if even div by 3\n",
+    "\n",
+    "num=int(input(\"enter the number\"))\n",
+    "\n",
+    "if num%2==0:\n",
+    "    print(\"even\")\n",
+    "    if num%3==0:\n",
+    "        print(\"it is divided by 3\")\n",
+    "    else:\n",
+    "        print(\"it is not divided by 3\")\n",
+    "else:\n",
+    "    print(\"odd\")\n",
+    "    \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "a680cc4d-182e-43f4-bf90-78c6d853beb1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the number 8\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "positive\n",
+      "even\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=int(input(\"enter the number\"))\n",
+    "\n",
+    "if num>0:\n",
+    "    print(\"positive\")\n",
+    "    if num%2==0:\n",
+    "        print(\"even\")\n",
+    "    else:\n",
+    "        print(\"odd\")\n",
+    "elif num<0:\n",
+    "    print(\"negative\")\n",
+    "    if num%5==0:\n",
+    "        print(\"it is div by 5\")\n",
+    "    else:\n",
+    "        print(\"it is not div by 5\")\n",
+    "else:\n",
+    "    print(\"zero\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "95ee54e3-e0c5-416a-8e23-c4c8e0a6caa6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the season rainy\n",
+      "enter the temp 54\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enjoy the rain\n"
+     ]
+    }
+   ],
+   "source": [
+    "season=str(input(\"enter the season\"))\n",
+    "if season==\"summer\":\n",
+    "    temp=int(input(\"enter the temp\"))\n",
+    "    if temp > 65:\n",
+    "        print(\"drink lot water\")\n",
+    "    else:\n",
+    "        print(\"enjoy summer\")\n",
+    "elif season==\"rainy\":\n",
+    "    temp=int(input(\"enter the temp\"))\n",
+    "    if temp > 45:\n",
+    "        print(\"enjoy the rain\")\n",
+    "    else:\n",
+    "        print(\"safe\")\n",
+    "else:\n",
+    "    print(\"enter the valid season\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "6df02fde-fc1f-4d5f-87b3-3892a2779d5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the username admin\n",
+      "enter the password 1234\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "login\n"
+     ]
+    }
+   ],
+   "source": [
+    "#username enter pass\n",
+    "username=str(input(\"enter the username\"))\n",
+    "\n",
+    "if username==\"sla\":\n",
+    "    password=int(input(\"enter the password\"))\n",
+    "    if password==123:\n",
+    "        print(\"login\")\n",
+    "    else:\n",
+    "        print(\"access denied\")\n",
+    "elif username==\"admin\":\n",
+    "    pas=int(input(\"enter the password\"))\n",
+    "    if pas==1234:\n",
+    "        print(\"login\")\n",
+    "    else:\n",
+    "        print(\"access denied\")\n",
+    "else:\n",
+    "    print(\"enter valid password\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "1ee0a794-32a2-408b-ba24-e4338467467e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your location coimbatore\n",
+      "enter your area annur\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "donate dress\n"
+     ]
+    }
+   ],
+   "source": [
+    "location=str(input(\"enter your location\"))\n",
+    "\n",
+    "if location==\"chennai\":\n",
+    "    area=input(\"enter your area\")\n",
+    "    if area==\"kk nagar\":\n",
+    "        print(\"donate money\")\n",
+    "    elif area==\"tambaram\":\n",
+    "        print(\"donate dress\")\n",
+    "    elif area==\"koyembedu\":\n",
+    "        print(\"donete fruits\")\n",
+    "    else:\n",
+    "        print(\"enter a valid area\")\n",
+    "elif location==\"tiruvannamalai\":\n",
+    "    area=input(\"enter your area\")\n",
+    "    if area==\"thenkasi\":\n",
+    "        print(\"donate crackers\")\n",
+    "    elif area==\"panakuli\":\n",
+    "        print(\"donate food\")\n",
+    "    else:\n",
+    "        print(\"enter a valid area\")\n",
+    "elif location==\"kumbakonam\":\n",
+    "    print(\"no charity here\")\n",
+    "elif location==\"coimbatore\":\n",
+    "    area=input(\"enter your area\")\n",
+    "    if area==\"annur\":\n",
+    "        print(\"donate dress\")\n",
+    "    elif area==\"gandhipuram bus stand\":\n",
+    "        print(\"donate books\")\n",
+    "    else:\n",
+    "        print(\"enter a valid area\")\n",
+    "else:\n",
+    "    print(\"dont have charity in location\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0d4c07ab-8d8d-40b6-a3bd-b77925f480b7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "model = input(\"Enter your car model\")\n",
+    "price = float(input(\"Enter the service price\"))\n",
+    "service = input(\"Enter service type \")\n",
+    "\n",
+    "if model == \"ford\":\n",
+    "    if service == \"basic\":\n",
+    "        cost = price * 0.10\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"classic\":\n",
+    "        cost = price * 0.23\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"premium\":\n",
+    "        cost = price * 0.30\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    else:\n",
+    "        print(\"Enter a valid service type\")\n",
+    "\n",
+    "elif model == \"tata\":\n",
+    "    if service == \"basic\":\n",
+    "        cost = price * 0.07\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"classic\":\n",
+    "        cost = price * 0.25\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"premium\":\n",
+    "        cost = price * 0.40\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    else:\n",
+    "        print(\"Enter a valid service type\")\n",
+    "\n",
+    "elif model == \"hyundai\":\n",
+    "    if service == \"basic\":\n",
+    "        cost = price * 0.15\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"classic\":\n",
+    "        cost = price * 0.25\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"premium\":\n",
+    "        cost = price * 0.20\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    else:\n",
+    "        print(\"Enter a valid service type\")\n",
+    "\n",
+    "else:  # any other car model\n",
+    "    if service == \"basic\":\n",
+    "        cost = price * 0.07\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"classic\":\n",
+    "        cost = price * 0.09\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    elif service == \"premium\":\n",
+    "        cost = price * 0.08\n",
+    "        print(\"Total Bill\", price + cost)\n",
+    "    else:\n",
+    "        print(\"Enter a valid service type\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b2267d9d-80c5-46d9-b816-432e6366fe9c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
